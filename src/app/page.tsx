@@ -98,7 +98,7 @@ export default function Home() {
       <ContentSection
         header={
           <div className="space-y-4 text-center lg:w-1/2 lg:text-left">
-            <h1 className="text-3xl">Why choose Easybank?</h1>
+            <h1 className="text-3xl">Latest Articles</h1>
           </div>
         }
         content={
@@ -113,7 +113,7 @@ export default function Home() {
                 />
               }
             >
-              <ArticleCard.Author name="By John Doe" />
+              <ArticleCard.Author name="By Claire Robinson" />
               <ArticleCard.Title>
                 Receive money in any currency with no fees
               </ArticleCard.Title>
@@ -133,7 +133,7 @@ export default function Home() {
                 />
               }
             >
-              <ArticleCard.Author name="By Jane Doe" />
+              <ArticleCard.Author name="By Wilson Hutton" />
               <ArticleCard.Title>
                 Treat yourself without worrying about money
               </ArticleCard.Title>
@@ -153,7 +153,7 @@ export default function Home() {
                 />
               }
             >
-              <ArticleCard.Author name="By John Doe" />
+              <ArticleCard.Author name="By Wilson Hutton" />
               <ArticleCard.Title>
                 Take your Easybank card wherever you go
               </ArticleCard.Title>
@@ -173,7 +173,7 @@ export default function Home() {
                 />
               }
             >
-              <ArticleCard.Author name="By Jane Doe" />
+              <ArticleCard.Author name="By Claire Robinson" />
               <ArticleCard.Title>
                 Our invite-only Beta accounts are now live!
               </ArticleCard.Title>
