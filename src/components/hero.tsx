@@ -3,7 +3,7 @@ import CtaLink from "./cta-link";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-[80vh] items-center bg-very-light-gray pb-8">
+    <section className="mt-20 flex min-h-[80vh] items-center bg-very-light-gray pb-8">
       <div className="relative mx-auto flex h-full w-full max-w-container flex-col items-center gap-4 lg:flex-row">
         <div className="flex flex-col items-center justify-center gap-6 px-4 text-center lg:w-1/2 lg:items-start lg:justify-normal lg:text-left xl:px-0">
           <h1 className="text-5xl font-light">
