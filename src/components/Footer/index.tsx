@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-dark-blue fill-white px-4 py-8">
-      <div className="mx-auto flex max-w-container flex-col items-center gap-24 text-center lg:flex-row lg:text-left">
+    <footer className="w-full bg-dark-blue fill-white px-4 py-16">
+      <div className="mx-auto flex max-w-container flex-col items-center gap-8 text-center lg:flex-row lg:gap-24 lg:text-left">
         <div className="flex flex-col items-center gap-4">
           <Image src="/logo-light.svg" alt="EasyBank" width={120} height={30} />
 
