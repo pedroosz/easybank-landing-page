@@ -3,6 +3,7 @@ import { Inter, Public_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 const publicSans = Public_Sans({
   subsets: ["latin"],
@@ -27,6 +28,28 @@ export default function RootLayout({
         {children}
 
         <Footer />
+
+        <div className="bg-dark-blue px-4 py-4">
+          <div className="mx-auto flex max-w-container flex-col gap-1 text-center text-xs text-neutral-200 lg:text-left">
+            <span>
+              Challenge by{" "}
+              <Link
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+              >
+                Frontend Mentor
+              </Link>
+              .
+            </span>{" "}
+            <span>
+              Coded by{" "}
+              <Link href="https://github.com/pedroosz" target="_blank">
+                Pedro Paulo
+              </Link>
+              .
+            </span>
+          </div>
+        </div>
       </body>
     </html>
   );
